@@ -10,6 +10,7 @@ const Projects: React.FC = () => {
         <Card title="Projeto 1" description="Este é um projeto incrível que utiliza React e Tailwind CSS.">
           <Badge color="primary">React</Badge>
           <Badge color="secondary">Tailwind CSS</Badge>
+          <Badge color="secondary">Nest.JS</Badge>
         </Card>
         <Card title="Projeto 2" description="Outro projeto incrível que utiliza Next.js e TypeScript.">
           <Badge color="primary">Next.js</Badge>
