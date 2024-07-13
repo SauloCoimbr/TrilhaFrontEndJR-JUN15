@@ -16,7 +16,7 @@ const PersonalInfo: React.FC = () => {
         Saulo Cavalcante Coimbra
       </h2>
       <p className="text-center">Idade: 33 anos</p>
-      <h2 className="text-xl font-semibold">
+      <h2 className="text-xl font-semibold text-center">
         📱 Engenheiro de Software | JavaScript | React | Angular | TypeScript |
         Node.js | Git | PostgreSQL | Ionic
       </h2>
