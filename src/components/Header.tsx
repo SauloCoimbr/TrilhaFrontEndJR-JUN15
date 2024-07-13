@@ -22,6 +22,9 @@ const Header: React.FC = () => {
               <Link to="personal-info" smooth={true} duration={500} className="cursor-pointer">Informações Pessoais</Link>
             </li>
             <li>
+              <Link to="projects" smooth={true} duration={500} className="cursor-pointer">Meus Projetos</Link>
+            </li>
+            <li>
               <Link to="about" smooth={true} duration={500} className="cursor-pointer">Sobre</Link>
             </li>
             <li>

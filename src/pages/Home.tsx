@@ -11,9 +11,9 @@ const Home: React.FC = () => {
       <Header />
       <main className="container mx-auto pt-24 p-4 bg-codigo-certo-white dark:bg-codigo-certo-dark-bg dark:text-codigo-certo-dark-text">
         <PersonalInfo />
+        <Projects/>
         <About />
         <Contact />
-        <Projects/>
       </main>
     </div>
   );

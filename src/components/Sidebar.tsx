@@ -32,6 +32,17 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           </li>
           <li className="mt-4">
             <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-codigo-certo-white"
+              onClick={toggleSidebar}
+            >
+              Meus Projetos
+            </Link>
+          </li>
+          <li className="mt-4">
+            <Link
               to="about"
               smooth={true}
               duration={500}
