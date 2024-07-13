@@ -8,7 +8,7 @@ interface BadgeProps {
 }
 
 const Badge: React.FC<BadgeProps> = ({ children, color = 'primary', className }) => {
-  const baseClasses = 'inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium';
+  const baseClasses = 'inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium m-1';
 
   const colorClasses = classNames({
     'bg-blue-100 text-blue-800': color === 'primary',
