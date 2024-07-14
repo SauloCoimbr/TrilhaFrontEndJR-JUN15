@@ -5,9 +5,10 @@ interface BadgeProps {
   children: React.ReactNode;
   color?: 'primary' | 'secondary' | 'success' | 'danger' | 'warning';
   className?: string;
+  to?: string;
 }
 
-const Badge: React.FC<BadgeProps> = ({ children, color = 'primary', className }) => {
+const Badge: React.FC<BadgeProps> = ({ children, color = 'primary', className,to }) => {
   const baseClasses = 'inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium m-1';
 
   const colorClasses = classNames({
@@ -19,9 +20,9 @@ const Badge: React.FC<BadgeProps> = ({ children, color = 'primary', className })
   });
 
   return (
-    <span className={`${baseClasses} ${colorClasses} ${className}`}>
+    <a href={to} className={`${baseClasses} ${colorClasses} ${className} target="_blank" rel="noopener noreferrer`}>
       {children}
-    </span>
+    </a>
   );
 };
 
