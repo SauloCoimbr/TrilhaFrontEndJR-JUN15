@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         alt="Foto pessoal"
         className="rounded-full w-10 h-10"
       />
-            <h2 className="text-xl font-semibold text-center">
+            <h2 className="font-semibold text-center">
         📱 Software Engineer
       </h2>
       </div>
