@@ -26,7 +26,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
           <div className="flex flex-col items-center justify-center">
             <img src={slide.image} alt={slide.title} className="w-[600px] h-[400px] object-cover" />
             <h2 className="text-xl font-bold mt-4">{slide.title}</h2>
-            <p className="text-gray-700 dark:text-gray-400">{slide.description}</p>
+            <p className="text-gray-700 font-bold dark:text-gray-400 m-6">{slide.description}</p>
           </div>
         </SwiperSlide>
       ))}
