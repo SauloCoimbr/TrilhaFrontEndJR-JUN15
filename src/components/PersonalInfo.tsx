@@ -46,11 +46,6 @@ const PersonalInfo: React.FC = () => {
         </li>
       </ul>
       <h3 className="mt-4 font-semibold">Vamos Conectar:</h3>
-      <p className="mt-2">
-        🤝 Estou ansioso para contribuir com os meus conhecimentos técnicos para uma
-        equipe que valorize progresso e inovação. Se você está procurando um
-        desenvolvedor, vamos conversar!
-      </p>
     </section>
   );
 };

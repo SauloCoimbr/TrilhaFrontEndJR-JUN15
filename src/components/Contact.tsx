@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
       </ul>
       <h3 className="mt-4 font-semibold">Vamos Conectar:</h3>
       <p className="mt-2">
-        🤝 Estou ansioso para contribuir com minha expertise técnica para uma
+        🤝 Estou ansioso para contribuir com meus conhecimentos técnicos para uma
         equipe que valorize progresso e inovação.
       </p>
     </section>
