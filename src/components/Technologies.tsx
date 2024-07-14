@@ -18,7 +18,7 @@ const Technologies: React.FC = () => {
     },
     {
       title: 'PanoramaToDo',
-      description: 'Outro projeto incrível que utiliza ReactJs, Tailwind CSSs e TypeScript, nele temos como proposta, compra e venda de alimentos',
+      description: 'Outro projeto incrível que utiliza React.js, JavaScript e SaSS, nele temos como proposta uma lista de tarefas.',
       image: toDoImage,
     },
   ];
