@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePhoto from '../assets/WhatsApp Image 2024-06-27 at 08.39.47.jpeg';
 
 const PersonalInfo: React.FC = () => {
   return (
@@ -7,11 +6,6 @@ const PersonalInfo: React.FC = () => {
       id="personal-info"
       className="p-4 bg-codigo-certo-white text-codigo-certo-light-text dark:bg-codigo-certo-dark-bg dark:text-codigo-certo-dark-text"
     >
-      <img
-        src={profilePhoto}
-        alt="Foto pessoal"
-        className="rounded-full w-32 h-32 mx-auto"
-      />
       <h2 className="text-xl font-semibold mt-4 text-center">
         Saulo Cavalcante Coimbra
       </h2>
