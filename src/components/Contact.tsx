@@ -36,10 +36,10 @@ const Contact: React.FC = () => {
         <Card title="LinkedIn" description="Conecte-se comigo no LinkedIn para expandir sua rede profissional e acompanhar minhas atualizações de carreira.">
           <Badge className='gap-2' color="primary" to="https://www.linkedin.com/in/saulo-coimbra-331893250/"> <FaLinkedin/>Link</Badge>
         </Card>
-        <Card title="GitHub" description="Confira meu GitHub para ver meus projetos de código aberto, contribuições e repositórios.">
+        <Card title="GitHub" description="Confira meu GitHub para ver meus projetos de código aberto, contribuições e repositórios, sempre buscando códigos limpos.">
           <Badge className='gap-2' color="secondary" to="https://github.com/SauloCoimbr"><FaGithub/>Link</Badge>
         </Card>
-        <Card title="Instagram" description="Siga-me no Instagram para ver minhas fotos, histórias e atualizações diárias.">
+        <Card title="Instagram" description="Siga-me no Instagram para ver minhas fotos, histórias e atualizações diárias, lá compartilho sobre Técnologia.">
           <Badge className='gap-2' color="danger" to="https://www.instagram.com/saulocoimbr?igsh=MThtaDBqNG45cnFqbg=="><FaInstagram/>Link</Badge>
         </Card>
         </div>
